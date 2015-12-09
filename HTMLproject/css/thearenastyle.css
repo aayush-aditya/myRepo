@@ -1,0 +1,370 @@
+
+.slider-holder
+        {
+            width: 960px;
+            height: 440px;
+            background-color: yellow;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0px;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .image-holder
+        {
+            width: 2880px;
+            background-color: red;
+            height: 440px;
+            clear: both;
+            position: relative;
+
+            -webkit-transition: left 2s;
+            -moz-transition: left 2s;
+            -o-transition: left 2s;
+            transition: left 2s;
+        }
+
+        .slider-image
+        {
+            float: left;
+            margin: 0px;
+            padding: 0px;
+            position: relative;
+        }
+
+        #slider-image-1:target ~ .image-holder
+        {
+            left: 0px;
+        }
+
+        #slider-image-2:target ~ .image-holder
+        {
+            left: -960px;
+        }
+
+        #slider-image-3:target ~ .image-holder
+        {
+            left: -1920px;
+        }
+
+        .button-holder
+        {
+            position: relative;
+            top: -20px;
+        }
+
+        .slider-change
+        {
+            display: inline-block;
+            height: 10px;
+            width: 10px;
+            border-radius: 5px;
+            background-color: yellow;
+        }
+
+section
+{
+  width: 29%;
+  float: left;
+  margin: 2% 2%;
+  text-align: center;
+
+}
+section.H
+{
+  margin: 0;
+  padding: 0;
+}
+ul
+{
+  list-style: none;
+}
+
+nav ul li
+{
+
+  font-size: 16px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+text-transform: uppercase;
+  display: inline-block;
+  float: left;
+  padding: 3px;
+  margin: 10px;
+  height: 50px;
+  width: auto;
+  text-align: center;
+  line-height: 40px;
+  font-family: Droid sans-serif;
+}
+
+
+
+a:hover:not(.active) {
+  font-size: 28;
+
+}
+
+.active {
+background-color:none;
+text-decoration: underline;
+}
+
+.grow {
+  height: 300px;
+  width: 300px;
+
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.grow:hover {
+  width: 400px;
+  height: 400px;
+}
+
+/*SHRINK*/
+.shrink {
+  height: 400px;
+  width: 400px;
+
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.shrink:hover {
+  width: 300px;
+  height: 300px;
+}
+/*MORPH*/
+.morph {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+.morph:hover {
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+#logo
+{
+  border-radius: 40px;
+  margin: 0px;
+  float: left;
+  height: 101px;
+  background: url(../img/logogym.jpg);
+  opacity: 0.80;
+  margin-top: 20px;
+
+}
+nav.grid_9
+{
+  padding-top: 40px;
+}
+p
+{
+  padding: 10px;
+  font-family: BenchNine;
+  font-size: 18px;
+}
+img
+{
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  margin-bottom: 10px;
+}
+.gri3p
+{
+  margin-bottom: 0;
+}
+.gri3h
+{
+  margin-bottom: 0;
+}
+h1.gri3h
+{
+  font-family: Droid Serif;
+  font-size: 22;
+}
+a
+{
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+body
+{
+background-image: url(../img/background.jpg);
+font: 14px/20px BenchNine;
+color: black;
+margin: 0;
+}
+.
+h1
+{
+  font-family: Droid Serif;
+  text-align: center;
+  font-size: 32;
+  padding-top: 15px;
+}
+h1.grid_12
+{
+  text-align: center;
+  font-family: Droid Serif;
+  font-size: 32;
+}
+h2
+{
+  text-decoration: underline;
+  line-height: 280%;
+  padding-left: 2%;
+}
+h3
+{
+  line-height: 100%;
+}
+.grid_4 h1
+{
+  font-family:"Droid Serif";
+  font-size: 22px;
+}
+.clear
+{
+  clear: both;
+}
+article
+{
+  margin:0;
+  padding: 0;
+  width: 35%;
+  height: auto;
+}
+aside
+{
+  margin:0;
+  padding: 0;
+  width: 35%;
+  height: auto;
+}
+ul.gym li
+{
+  padding-left: 2%;
+}
+.everyone li a
+{
+  color: white;
+  text-decoration: underline;
+  font-family: BenchNine;
+  font-size: 22px;
+
+}
+footer
+{
+  background-color: none;
+  padding-top:25px;
+}
+
+div..first.grid_12
+{
+  color: #8B7355;
+}
+#porth
+{
+  text-decoration: underline;
+  text-align: center;
+  font-size: 44px;
+  font-family: Droid Serif;
+}
+.grid_3 h3
+{
+  padding-left: 29px;
+}
+.sizee h3
+{
+  padding-left: 10px;
+}
+img.grid_12
+{
+  margin: 0;
+}
+.first.grid_12
+{
+  background: #EBC79E;
+  width: 100%;
+  overflow: hidden;
+  opacity: 0.90;
+}
+.first.grid_12 p, .first.grid_12 h3
+{
+  color: black;
+}
+.first.grid_12 p a
+{
+  color: #FFF;
+  text-decoration: none;
+}
+.social li
+{
+  display: inline;
+}
+.social li img
+{
+  padding-top: 15px;
+}
+.second
+{
+  text-align: center;
+  opacity: 0.75;
+  width: 100%;
+}
+
+.second.grid_12 p
+{
+  clear: both;
+  margin-bottom: 0px;
+}
+footer.second.grid_12
+{
+  margin: 0;
+  padding: 0;
+
+.grid_3
+{
+  margin: 0;
+  padding-left: 10px;
+  padding-top: 5px;
+  font-family: Droid Serif;
+  font-size: 32px;
+}
+.text_in p
+{
+  font-size: 44px;
+}
+
+.first
+{
+  background-color: #EBC79EB;
+  padding: 0;
+}
+
+.{
+  margin-top: 20px;
+}
