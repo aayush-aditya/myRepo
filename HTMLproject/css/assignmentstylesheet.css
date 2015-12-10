@@ -1,0 +1,18 @@
+.divwhole
+{
+margin: auto;width: 400px;
+}
+.divborder
+{
+  height:35px;
+  width: 400px;
+  border-style:solid;
+  border-color:white;
+  border-width: 2px;
+  text-align: center;
+}
+blockquote
+{
+  text-align: center;
+  margin-left: 0;
+}

@@ -1,0 +1,16 @@
+h1
+{
+  background: url(../img/paytm.png);
+  display: inline;
+  text-indent: -9999px;
+}
+ul
+{
+  list-style: none;
+  text-decoration: none;
+}
+textarea
+{
+  width: 500px;
+  height: 200px;
+}

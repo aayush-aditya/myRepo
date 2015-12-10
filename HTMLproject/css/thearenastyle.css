@@ -1,4 +1,4 @@
-
+/*styling for slider starts*/
 .slider-holder
         {
             width: 960px;
@@ -62,7 +62,7 @@
             border-radius: 5px;
             background-color: yellow;
         }
-
+/*styling for slider ends*/
 section
 {
   width: 29%;
@@ -111,7 +111,7 @@ a:hover:not(.active) {
 background-color:none;
 text-decoration: underline;
 }
-
+/*grow images effects*/
 .grow {
   height: 300px;
   width: 300px;
@@ -122,13 +122,13 @@ text-decoration: underline;
       -ms-transition: all 1s ease;
           transition: all 1s ease;
 }
-
+/*grow images effects on mouse hover*/
 .grow:hover {
   width: 400px;
   height: 400px;
 }
 
-/*SHRINK*/
+/*SHRINK images effects*/
 .shrink {
   height: 400px;
   width: 400px;
@@ -139,20 +139,20 @@ text-decoration: underline;
       -ms-transition: all 1s ease;
           transition: all 1s ease;
 }
-
+/*shrink images effects on mouse hover*/
 .shrink:hover {
   width: 300px;
   height: 300px;
 }
-/*MORPH*/
+/*MORPH images effects*/*/
 .morph {
-  -webkit-transition: all 0.5s ease;
-     -moz-transition: all 0.5s ease;
-       -o-transition: all 0.5s ease;
-      -ms-transition: all 0.5s ease;
-          transition: all 0.5s ease;
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
 }
-
+/*morph images effects on mouse hover*/
 .morph:hover {
   border-radius: 50%;
   -webkit-transform: rotate(360deg);
@@ -161,7 +161,7 @@ text-decoration: underline;
       -ms-transform: rotate(360deg);
           transform: rotate(360deg);
 }
-
+/*logo style effects*/
 #logo
 {
   border-radius: 40px;
